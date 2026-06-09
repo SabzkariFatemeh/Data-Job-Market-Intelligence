@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+*.ipynb_checkpoints/
+
+# Data (ممکن است بزرگ باشد)
+data/*.csv
+data/*.xlsx
+
+# Power BI
+*.pbix
+
+# OS garbage
+.DS_Store
+Thumbs.db
