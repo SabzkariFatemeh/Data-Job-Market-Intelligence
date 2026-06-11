@@ -17,3 +17,13 @@ Analyze 6,000+ data job postings to identify best job titles and countries for j
 - SQL (SQLite)
 - Power BI
 - Excel
+
+## 📈 Key Business Insights
+
+| Insight | Implication |
+|---------|--------------|
+| Data Analyst has 3,853 entry-level jobs (more than DS + DE combined) | Best starting point for junior roles |
+| USA accounts for 81% of entry-level opportunities | Focus on US timezone and remote applications |
+| On-site pays 14% more than remote for juniors | Consider relocation or hybrid if salary is priority |
+
+🔍 [Full analysis details](reports/key_insights.md)
