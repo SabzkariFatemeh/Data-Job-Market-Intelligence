@@ -1,29 +1,37 @@
 # Data Job Market Intelligence
 
-## 📊 Dataset
+A data-driven guide for junior job seekers: which roles, countries, and work styles offer the best opportunities.
 
-**Source**: [Data Science Salaries 2025](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2025) on Kaggle  
-**Rows**: 105,434 total (filtered to 41,740 entry/mid-level roles)  
-**Columns**: work_year, experience_level, job_title, salary_in_usd, company_location, remote_ratio, etc.
+**Tools**: Python (Pandas), SQL, Power BI, Excel  
+**Dataset**: [Data Science Salaries 2025](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2025) – 105K rows filtered to 41K entry/mid-level roles
 
-## Status
-🚧 Project in progress – building job market analysis for entry-level data roles
+---
 
-## Objective
-Analyze 6,000+ data job postings to identify best job titles and countries for junior job seekers
+## Quick Insights
 
-## Tools
-- Python (Pandas, Matplotlib)
-- SQL (SQLite)
-- Power BI
-- Excel
+| Question | Answer |
+|----------|--------|
+| Most entry-level jobs? | **Data Analyst** (3,853 roles – 4x more than DS) |
+| Highest paying for juniors? | **Research Scientist** ($180K), but few openings |
+| Best country for juniors? | **USA** (81% of all opportunities) |
+| Remote vs on-site? | On-site pays **14% more** for entry-level |
 
-## 📈 Key Business Insights
+📊 [Full dashboard preview](images/dashboard.overview.PNG)  
+🔍 [Detailed analysis](reports/key_insights.md)
 
-| Insight | Implication |
-|---------|--------------|
-| Data Analyst has 3,853 entry-level jobs (more than DS + DE combined) | Best starting point for junior roles |
-| USA accounts for 81% of entry-level opportunities | Focus on US timezone and remote applications |
-| On-site pays 14% more than remote for juniors | Consider relocation or hybrid if salary is priority |
+---
 
-🔍 [Full analysis details](reports/key_insights.md)
+## What I learned from this project
+
+- SQL and Python aren't just "nice to have" – they're how I filtered 100K rows down to actual insights
+- Power BI forces you to think about what a recruiter actually wants to see in 5 seconds
+- Real-world data is messy (had to handle missing salaries, standardize job titles, etc.)
+
+---
+
+## How to run this yourself
+
+```bash
+git clone https://github.com/yourusername/Data-Job-Market-Intelligence.git
+cd Data-Job-Market-Intelligence
+pip install -r requirements.txt

@@ -9,9 +9,6 @@ venv/
 data/salaries.csv
 data/*.xlsx
 
-# Power BI
-*.pbix
-
 # OS garbage
 .DS_Store
 Thumbs.db
